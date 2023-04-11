@@ -1,0 +1,48 @@
+<main class="game-container">
+  <h2 id="greeting"></h2>
+  <div>
+    {{! 1st section: Welcome message. Greets player to website and introduces them to the game. When clicked, this will be hidden. }}
+    <section class="welcome-container">
+      <h1>Keyboard Hero</h1>
+      <p>Keyboard Hero is an in browser typing game developed by David Cruz,
+        inspired by Typing Derby from Tower Unite.<br />The objective of the
+        game is to type as many words as possible that appear in the center of
+        the screen within the time limit.<br />Play once, get a words per minute
+        (WPM). Play again, beat that WPM.</p>
+      <p>Press the button below to play!</p>
+      <button id="play-button">PLAY</button>
+    </section>
+    {{! 2nd section: Game. This is originally hidden, but when the welcome message is hidden, this becomes visable. }}
+    <section class="play-container" hidden="hidden">
+      <h2 id="personalBestHeader"></h2>
+      <object class="play">
+        <header class="play-header">
+          <h2 class="play-header-heading" id="TIME">TIME: 0s</h2>
+          <h2 class="play-header-heading" id="WPM">WPM: 0</h2>
+          <h2 class="play-header-heading" id="ACC">ACCURACY: 0%</h2>
+        </header>
+        <main class="play-area">
+          <div class="currword-div">
+            <h3 id="currword">
+              Curr-word
+            </h3>
+          </div>
+          <div class="otherwords">
+            <h3 id="prevword">
+              Prev-word
+            </h3>
+
+            <h3 id="nextword">
+              Next-word
+            </h3>
+          </div>
+        </main>
+        <footer class="play-footer">
+          <button id="restart-button">Restart</button>
+          <p>Shortcuts: ESC to restart</p>
+          <p>Hint: Type a character to begin.</p>
+        </footer>
+      </object>
+    </section>
+  </div>
+</main>

@@ -1,0 +1,47 @@
+{{! This will be your default layout for all handlebars file rendered. This will be inherited by all other templates. }}
+{{! Refer lecture code to learn more on how this works: https://github.com/stevens-cs546-cs554/CS-546/tree/master/lecture_08/code/HTML_Templating }}
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>KBHero</title>
+    <link rel="stylesheet" href="/public/css/main-styles.css" />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    ></script>
+    <script rel="javascript" type="module" src="/public/js/preferences.js"></script>
+    {{{scripts}}}
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="/public/images/favicon.png"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div id="navbar-title-container">
+        <a href="/"><h1 id="navbar-title">KeyboardHero</h1></a>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="/" class="navbarbutton" id="gamebutton">
+              Game
+            </a>
+          </li>
+          <li>
+            <a href="/leaderboard/" class="navbarbutton" id="leaderboardbutton">
+              Leaderboard
+            </a>
+          </li>
+          <li>
+            <a href="/settings/" class="navbarbutton" id="settingsbutton">
+              Settings
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    {{{body}}}
+  </body>
+</html>

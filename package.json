@@ -1,0 +1,19 @@
+{
+  "name": "keyboardhero",
+  "version": "1.0.0",
+  "description": "David Cruz | S23 CS545 Semester Project | KeyboardHero",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "handlebars": "^4.7.7",
+    "mongodb": "^5.1.0"
+  }
+}
