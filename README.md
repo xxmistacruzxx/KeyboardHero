@@ -6,8 +6,8 @@ Must have node.js to run.
 
 ## Getting Started ##
 One you have node.js installed, navigate to directory with cloned source code in a shell/terminal.
-Then, run "npm i".
-Lastly, run "npm start" to start up the server.
+Next, run "npm i".
+Then, run "npm start" to start up the server.
 Lastly, navigate to localhost:3000 in a web browser.
 
 ## Principle of the Game ##
