@@ -240,6 +240,10 @@ body {
   list-style: none;
 }
 
+label {
+  color: var(--text-color2);
+}
+
 .settings-option {
   margin-left: 20px;
   margin-right: 20px;
