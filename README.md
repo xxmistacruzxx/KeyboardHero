@@ -5,7 +5,10 @@ Local web browser typing game, developed by David Cruz for S23-CS545-WS: Human-C
 Must have node.js to run.
 
 ## Getting Started ##
-One you have node.js installed, navigate to directory with cloned source code in a shell/terminal and run "npm start".
+One you have node.js installed, navigate to directory with cloned source code in a shell/terminal.
+Next, run "npm i".
+Then, run "npm start" to start up the server.
+Lastly, navigate to localhost:3000 in a web browser.
 
 ## Principle of the Game ##
 Keyboard Hero is an in browser typing game developed by David Cruz, inspired by Typing Derby from Tower Unite. The objective of the game is to type as many words as possible that appear in the center of the screen within the time limit. Play once, get a words per minute(WPM). Play again, beat that WPM.
