@@ -1,6 +1,9 @@
 # Keyboard Hero #
 Local web browser typing game, developed by David Cruz for S23-CS545-WS: Human-Computer Interaction for Professor Gregg Vesonder at Stevens Institute of Technology.
 
+## Demo Video ##
+https://youtu.be/pO8hn2n1gSU
+
 ## Dependencies ##
 Must have node.js to run.
 
